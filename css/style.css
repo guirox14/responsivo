@@ -1,0 +1,175 @@
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+  background: #339900;
+  box-shadow: 1px 1px 5px #000000;
+  float: left;
+  position: fixed;
+  z-index: 1000;
+}
+
+#logo {
+  float: left;
+  font: 30px Roboto, Tahoma;
+  color: #FFF;
+  text-decoration: none;
+  margin: 10px;
+}
+
+#logo:hover {
+  color: #00CC00;
+}
+
+nav {
+  float: right;
+  margin: 15px;
+}
+
+nav ul li {
+  display: inline;
+  list-style: none;
+}
+
+nav ul li a {
+  margin: 10px;
+  padding: 10px;
+  color: #FFF;
+  font: 20px Roboto, Tahoma;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+nav ul li a:hover {
+  background: #33CC00;
+  color: #006600;
+}
+
+#btnmenu {
+  float: right;
+  margin: 10px;
+  background: #006600;
+	color: #33CC00; 
+  display: none;
+}
+
+#banner {
+  width: 100%;
+  float: left;
+  margin-top: 75px;
+}
+
+#banner img {
+  width: 100%;
+}
+
+.box {
+  width: 100%;
+  float: left;
+  padding: 90px 0px 50px 0px;
+  min-height: 400px;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+}
+
+h1 {
+  font: 30px Roboto, Tahoma;
+  text-align: center;
+  font-weight: bold;
+  color: #006600;
+  margin-bottom: 20px;
+}
+
+p {
+  font: 16px "Open Sans", Verdana;
+  margin: 10px;
+}
+
+label {
+	font: 1em Roboto, Tahoma;
+	margin: 10px;
+	display: inline;
+}
+
+#portfolio {
+  background: #dfe3ee;
+}
+
+footer {
+  background: #006600;
+  float: left;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  color: #FFF;
+  width: 100%;
+}
+
+footer a {
+  text-decoration: none;
+  opacity: 0.5;
+  transition: all 0.5s;
+  color: #FFF;
+}
+
+footer a:hover {
+  opacity: 1;
+}
+
+.colunas {
+  width: 48%;
+  float: left;
+  padding: 10px;
+}
+
+.colunas img {
+	width: 90%;
+}
+
+.portfolio {
+  width: 24%;
+  float: left;
+  padding: 10px;
+}
+
+.redondo {
+  border-radius: 400px;
+  width: 100%;
+}
+
+.campo {
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    margin: 10px;
+    width: 90%;
+    padding: 10px;
+}
+
+.campo:focus {
+    background:	#009933;
+}
+
+textarea {
+	font: 0.9em Roboto, Tahoma;
+}
+
+.btn {
+	padding: 10px;
+	background: #006600;
+	color: #009933;
+	text-decoration: none;
+	text-align: center;
+	transition: all 0.5s;
+  margin: 10px;
+}
